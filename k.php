@@ -5,8 +5,8 @@
 </head>
 <body>
 <?php
-$today=date("d/m/y");
-echo $today;
+$today=time();
+echo(date("F d, Y h:i:s",$today));
 ?>
 </body>
 </html>
