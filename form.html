@@ -1,0 +1,46 @@
+<DOCTYPE html>
+<html lang="en">
+    <head>
+        <tilte>Example of HTML Controls</title>
+    </head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Sign in</legend>
+            <label for="user-name">Username:</label>
+            <input type="text" name="username" id="user-name">
+            <label for="user-pwd">Password:</label>
+            <input type="password" name="user-password" id="user-pwd">
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="sex" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <fieldset> 
+            <legend>Address</legend>
+            <textarea row="3" cols="30"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Upload file</legend>
+            <label for="file-select">Upload:</label>
+            <input type="file" name="upload" id="file-select">
+        </fieldset>
+        <fieldset>
+            <legend>Select Your City</legend>
+            <label for="city">City:</label>
+            <select name="city" id="city">
+                <option value="sydney">Sydney</option>
+                <option value="melbourne">Melbourne</option>
+                <option value="cromwell">Cromwell</option>
+        </fieldset>
+        <fieldset>
+            <legend>Action</legend>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
